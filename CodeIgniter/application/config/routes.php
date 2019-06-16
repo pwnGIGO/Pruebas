@@ -60,7 +60,7 @@ $route['Productos'] = "ProductosController/index";
 
 $route['Productos/Agregar'] = "ProductosController/createView";
 $route['Productos/Create'] = "ProductosController/create";
-
+// Probando el comentario jejeje
 //$route['Productos/Editar/$producto'] = "ProductosController/updateView";
 //$route['Productos/Update'] = "ProductosController/update";
 
