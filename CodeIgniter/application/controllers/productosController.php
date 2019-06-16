@@ -100,4 +100,8 @@
 			
 			redirect('Productos');
 		}
+
+		function prueba(){
+
+		}
 	}
