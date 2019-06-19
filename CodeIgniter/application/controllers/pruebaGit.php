@@ -5,4 +5,7 @@
             
         }
 
-        function jose(){}
+        function jose(){
+        	$variable_jose="holaa";
+
+        }
