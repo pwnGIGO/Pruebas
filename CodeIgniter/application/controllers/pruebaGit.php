@@ -17,3 +17,7 @@
         	echo "nada";
 
         }
+
+    function Fernando(){
+    	echo "Vamos por unos pulques";
+    }
