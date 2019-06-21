@@ -8,7 +8,12 @@
 		echo ("Vamos a echar la reta de basquet");
 		echo ("Vamos a echar la reta de basquet");
 	}
-	function Francisca(){}
+	function Francisca(){
+            echo "hola";
+            echo "hola";
+            echo "hola";
+            echo "hola";
+        }
 
         function jose(){
         	$variable_jose="holaa";
@@ -21,3 +26,5 @@
     function Fernando(){
     	echo "Vamos por unos pulques";
     }
+    
+    
