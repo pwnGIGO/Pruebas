@@ -7,6 +7,12 @@
 		echo "ya cambie en mi propio controlador";
 	}
 
+	public function pull($hola){
+
+		$var="esamos hcaendo pruebas el pull";
+		echo "jose";
+	}
+
 
 
  ?>
