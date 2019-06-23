@@ -14,5 +14,7 @@
 	}
 
 
-
+	public function hola(){
+		echo "agrege este metodo despues del push de jose";
+	}
  ?>
