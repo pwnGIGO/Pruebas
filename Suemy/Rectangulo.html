@@ -1,9 +1,27 @@
 <html>
     <body>
 
-        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-            Your browser does not support the HTML canvas tag.
-        </canvas>
+        <canvas id="myCanvas" width="600" height="600"
+            style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        posX = 95;
+        posY = 50;
+        function dibujar(){
+            var rectangulo= ctx.createLinearGradient(posX,posY, 200, 0);
+            rectangulo.addColorStop(0,"blue");
+            rectangulo.addColorStop(1,"white");
+            ctx.fillStyle = rectangulo;
+            ctx.fillRect(10,10,200,80);
+
+        }
+
+        setInterval(dibujar,50);
+    </script>
 
     </body>
 </html>
